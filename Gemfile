@@ -7,6 +7,7 @@ gem 'rails', '3.2.13'
 
 gem 'sqlite3'
 
+gem 'dynamic_form'
 gem 'devise', '2.1.0'
 gem 'omniauth-twitter'
 gem 'twitter'
@@ -21,7 +22,7 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-  gem 'foundation'
+  gem 'zurb-foundation'
 end
 
 group :development do
