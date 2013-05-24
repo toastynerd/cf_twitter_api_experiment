@@ -35,4 +35,7 @@ RSpec.configure do |config|
   # the seed, which is printed after each run.
   #     --seed 1234
   config.order = "random"
+
+  #action mailing all over the place
+  config.include EmailSpec::Helpers
 end
